@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class DriverFactory {
+public class DriverFactory{
         public static WebDriver driver = null;
 
         public static WebDriver getDriver(String browser){
@@ -32,11 +32,11 @@ public class DriverFactory {
         public static void CloseDriver(){
             driver.close();
         }
-        public void waitElementToBeVisible(WebElement webElement)
+       /* public void waitElementToBeVisible(WebElement webElement)
         {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             wait.until(ExpectedConditions.visibilityOf(webElement));
-        }
+        } */
 
 }
 
