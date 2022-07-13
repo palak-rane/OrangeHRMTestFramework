@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
-    public LoginPage(WebDriver driver){
+    public LoginPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
 
@@ -21,15 +21,15 @@ public class LoginPage {
     @FindBy(className = "button")
     WebElement loginBtn;
 
-    public void EnterUserName(String uname){
+    public void EnterUserName(String uname) {
         username.sendKeys(uname);
     }
 
-    public void EnterPassword(String pwd){
+    public void EnterPassword(String pwd) {
         password.sendKeys(pwd);
     }
 
-    public void ClickOnLogin(){
+    public void ClickOnLogin() {
         loginBtn.click();
     }
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite: Orange HRM">
+    <test name="Test Login Feature">
+        <classes>
+            <class name="login.TestLogin"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Test Basics 2">
+        <parameter name="emailid" value="tester789@gmail.com"/>
+        <classes>
+        </classes>
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
