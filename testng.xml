@@ -3,13 +3,13 @@
 <suite name="Practice Suite: Orange HRM">
     <test name="Test Login Feature">
         <classes>
-            <class name="login.TestLogin"/>
+            <class name="login.TestAddUser"/>
         </classes>
     </test> <!-- Test -->
 
     <test name="Test Basics 2">
-        <parameter name="emailid" value="tester789@gmail.com"/>
         <classes>
+            <class name="login.TestAddJob"/>
         </classes>
 
     </test> <!-- Test -->

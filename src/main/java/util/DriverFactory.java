@@ -31,8 +31,10 @@ public class DriverFactory {
         driver.get(url);
     }
 
-   // public static void CloseDriver() {
-       // driver.close();
+   public static void CloseDriver() {
+       driver.close();
+       driver = null;
+   }
 
        /* public void waitElementToBeVisible(WebElement webElement)
         {
